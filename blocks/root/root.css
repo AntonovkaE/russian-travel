@@ -1,0 +1,21 @@
+:root {
+    --basic-black: #000000;
+    --basic-grey: #2A2C2F;
+    --basic-white: #ffffff;
+    /* --gap-xs: 20px;
+    --gap-small: 30px;
+    --gap-medium: 64px; */
+  }
+
+.root {
+  background-color: var(--basic-grey);
+  font-family: Inter;
+  width: 100%;
+  color: var(--basic-white);
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
