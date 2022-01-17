@@ -2,7 +2,13 @@
   margin: 0 16px 64px 16px;
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(288px, 352px));
+  grid-template-columns: repeat(auto-fit, minmax(288px, calc(768px - 32px)));
   justify-content: center;
+}
 
+@media screen and (min-width: 768px) {
+  .photo-grid {
+    margin: 0 24px 88px 24px;
+    grid-template-columns: repeat(2, minmax(352px, calc((1024px - 48px - 16px)/2)));
+  }
 }

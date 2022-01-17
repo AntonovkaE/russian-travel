@@ -1,0 +1,14 @@
+.places {
+  margin: 0 0 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    margin: 0 0 90px;
+    padding: 0 24px 0 24px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1 fr;
+  }
+
+  
+}
