@@ -3,5 +3,5 @@
 Цель данного проекта - практика навыков верстки. Проект сделан в соответсвии с методологией БЭМ, для разметки в нем использованы flexbox, grid. После сдачи в планах добавить светлую тему.
 
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка на GitHub Pages](https://antonovkae.github.io/russian-travel/index.html)
 
