@@ -1,4 +1,14 @@
 .link {
   color: white;
   text-decoration: none;
+  z-index: 1;
+  transition: opacity 0.5s;
+  display: inline-block;
+  position: relative;
+  width: fit-content;
 }
+
+.link:hover {
+  opacity: 0.8;
+}
+

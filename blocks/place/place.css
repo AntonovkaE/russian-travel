@@ -1,12 +1,29 @@
 .place {
   width: 100%;
+  margin: 0 0 50px;
 }
 
 @media screen and (min-width: 768px) {
   .place {
     display: grid;
-    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
-
+    grid-template-columns: 48% 49%;
+    gap: 48px 28px;
+    margin: 0 0 73px 0;
   }
-  
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    grid-template-columns: 47.4% 49%;
+    gap: 48px 32px;
+    margin: 0 auto 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 46.7% 49%;
+    gap: 48px 40px;
+    margin: 0 auto 80px;
+  }
 }

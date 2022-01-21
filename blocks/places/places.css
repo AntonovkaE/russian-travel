@@ -1,5 +1,5 @@
 .places {
-  margin: 0 0 50px;
+  margin: 0 0 66px;
 }
 
 @media screen and (min-width: 768px) {
@@ -7,8 +7,19 @@
     margin: 0 0 90px;
     padding: 0 24px 0 24px;
     box-sizing: border-box;
-    grid-template-columns: 1fr 1 fr;
   }
+}
 
-  
+@media screen and (min-width: 1024px) {
+  .places {
+    margin: 0 0 90px;
+    padding: 0 4.69%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    margin: 0 0 92px;
+    padding: 0 11.56%;
+  }
 }
