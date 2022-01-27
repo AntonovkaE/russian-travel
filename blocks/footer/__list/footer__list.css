@@ -10,12 +10,12 @@
 
 @media screen and (min-width: 768px) {
   .footer__list {
-    /* display: flex;
-    flex-direction: row; */
-    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 16px;
     line-height: 18px;
-    /* width: 100%; */
+    width: 100%;
     margin: 0;
   }
   

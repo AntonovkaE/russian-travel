@@ -1,0 +1,11 @@
+.lang-switcher__link_active::after {
+  content: '';
+
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+
+  border-width: 0 0 2px;
+  border-style: solid;
+}

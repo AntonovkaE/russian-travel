@@ -9,17 +9,7 @@
 .lang-switcher__item:hover {
   opacity: 0.8;
 }
-.lang-switcher__item:first-child::after {
-  content: '';
 
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-
-  border-width: 0 0 2px;
-  border-style: solid;
-}
 
 .lang-switcher__item:last-child {
   margin: 0;

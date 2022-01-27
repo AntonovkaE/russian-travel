@@ -1,8 +1,3 @@
-:root {
-    --basic-black: #000000;
-    --basic-grey: #2A2C2F;
-    --basic-white: #ffffff;
-  }
 
 .root {
   background-color: var(--basic-grey);
@@ -15,7 +10,6 @@
   font-style: normal;
   line-height: 26px;
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 
